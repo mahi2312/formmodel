@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+   
+   font-family: 'Times New Roman', Times, serif;
+   background-image: url("/bg.jpg");
+    
+    
+}
+.nav-bar{
+   
+    text-decoration: none;
+    margin: 5px;
+    padding: 30px;
+ 
+}
+ul{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.list{
+    text-decoration: none;
+    color: orangered;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+   
+
+}
+.logo{
+    font-size: 25px;
+    color: orangered;
+    float: left;
+
+}
+.content{
+    width: 350px;
+    height: 550px;
+    border: 5px solid black;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 35%;
+    margin-top: 0;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.6) ;
+    
+    
+}
+#form-heading{
+    margin-left: 25%;
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: white;
+    width: 150px;
+    height: 45px;
+    padding: 5px;
+    color: orangered;
+}
+.input-box{
+    margin: 10px;
+    padding: 10px;
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+input{
+    width: 200px;
+    height: 15px;
+    background: transparent;
+    border-bottom: 3px solid orangered;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    letter-spacing: 1px;
+
+
+}
+input::placeholder{
+color: white;
+}
+.button input{
+ border: 1px solid orangered;
+ width: 150px;
+ height: 25px;
+ font-size: large;
+ background-color: orangered;
+ color: white;
+ margin-left: 27%;
+ border-radius: 5px;
+ 
+ 
+}
+
+.list:hover{
+    color: orangered;
+    text-decoration-line: underline;
+    
+}
+   
+    
+    
+
+
+
